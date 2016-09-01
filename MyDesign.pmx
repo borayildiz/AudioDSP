@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PinMuxDesign>
+    <Chip>LPC4357FET256</Chip>
+    <Peripheral Name="ADC">
+        <Signals BallNumber="66" Signal="ADC0_0/&#xa;ADC1_0/DAC"/>
+        <Signals BallNumber="34" Signal="ADC0_1/&#xa;ADC1_1"/>
+        <Signals BallNumber="4" Signal="ADC0_6/&#xa;ADC1_6"/>
+        <Signals BallNumber="84" Signal="ADC1_0"/>
+        <Signals BallNumber="53" Signal="ADC1_2"/>
+        <Signals BallNumber="70" Signal="ADC1_3"/>
+        <Signals BallNumber="72" Signal="ADC1_4"/>
+        <Signals BallNumber="1" Signal="ADC1_5"/>
+        <Signals BallNumber="22" Signal="ADC1_7"/>
+    </Peripheral>
+    <Peripheral Name="Ethernet">
+        <Signals BallNumber="177" Signal="ENET_COL"/>
+        <Signals BallNumber="182" Signal="ENET_CRS"/>
+        <Signals BallNumber="255" Signal="ENET_MDC"/>
+        <Signals BallNumber="183" Signal="ENET_MDIO"/>
+        <Signals BallNumber="51" Signal="ENET_RX_CLK"/>
+        <Signals BallNumber="251" Signal="ENET_RXD0"/>
+        <Signals BallNumber="162" Signal="ENET_RXD1"/>
+        <Signals BallNumber="181" Signal="ENET_RXD2"/>
+        <Signals BallNumber="199" Signal="ENET_RXD3"/>
+        <Signals BallNumber="195" Signal="ENET_RX_DV"/>
+        <Signals BallNumber="197" Signal="ENET_RX_ER"/>
+        <Signals BallNumber="196" Signal="ENET_TX_CLK(ENET_REF_CLK)"/>
+        <Signals BallNumber="203" Signal="ENET_TXD0"/>
+        <Signals BallNumber="185" Signal="ENET_TXD1"/>
+        <Signals BallNumber="201" Signal="ENET_TXD2"/>
+        <Signals BallNumber="184" Signal="ENET_TXD3"/>
+        <Signals BallNumber="83" Signal="ENET_TX_EN"/>
+        <Signals BallNumber="99" Signal="ENET_TX_ER"/>
+    </Peripheral>
+    <Peripheral Name="I2S0">
+        <Signals BallNumber="186" Signal="I2S0_RX_MCLK"/>
+        <Signals BallNumber="187" Signal="I2S0_RX_SCK"/>
+        <Signals BallNumber="90" Signal="I2S0_RX_SDA"/>
+        <Signals BallNumber="106" Signal="I2S0_RX_WS"/>
+        <Signals BallNumber="29" Signal="I2S0_TX_MCLK"/>
+        <Signals BallNumber="92" Signal="I2S0_TX_SCK"/>
+        <Signals BallNumber="165" Signal="I2S0_TX_SDA"/>
+        <Signals BallNumber="14" Signal="I2S0_TX_WS"/>
+    </Peripheral>
+    <Peripheral Name="JTAG">
+        <Signals BallNumber="132" Signal="TCK/SWDCLK"/>
+        <Signals BallNumber="131" Signal="TDI"/>
+        <Signals BallNumber="148" Signal="TDO/SWO"/>
+        <Signals BallNumber="149" Signal="TMS/SWDIO"/>
+        <Signals BallNumber="179" Signal="TRST"/>
+    </Peripheral>
+    <Peripheral Name="LCD">
+        <Signals BallNumber="115" Signal="LCD_DCLK"/>
+        <Signals BallNumber="32" Signal="LCD_ENAB/LCDM"/>
+        <Signals BallNumber="49" Signal="LCD_FP"/>
+        <Signals BallNumber="31" Signal="LCD_LE"/>
+        <Signals BallNumber="38" Signal="LCD_LP"/>
+        <Signals BallNumber="21" Signal="LCD_PWR"/>
+        <Signals BallNumber="0" Signal="LCD_VD0"/>
+        <Signals BallNumber="16" Signal="LCD_VD1"/>
+        <Signals BallNumber="33" Signal="LCD_VD2"/>
+        <Signals BallNumber="50" Signal="LCD_VD3"/>
+        <Signals BallNumber="39" Signal="LCD_VD4"/>
+        <Signals BallNumber="146" Signal="LCD_VD5"/>
+        <Signals BallNumber="128" Signal="LCD_VD6"/>
+        <Signals BallNumber="45" Signal="LCD_VD7"/>
+        <Signals BallNumber="6" Signal="LCD_VD8"/>
+        <Signals BallNumber="65" Signal="LCD_VD9"/>
+        <Signals BallNumber="178" Signal="LCD_VD10"/>
+        <Signals BallNumber="161" Signal="LCD_VD11"/>
+        <Signals BallNumber="43" Signal="LCD_VD12"/>
+        <Signals BallNumber="52" Signal="LCD_VD13"/>
+        <Signals BallNumber="11" Signal="LCD_VD14"/>
+        <Signals BallNumber="26" Signal="LCD_VD15"/>
+        <Signals BallNumber="129" Signal="LCD_VD16"/>
+        <Signals BallNumber="44" Signal="LCD_VD17"/>
+        <Signals BallNumber="15" Signal="LCD_VD18"/>
+        <Signals BallNumber="130" Signal="LCD_VD19"/>
+        <Signals BallNumber="12" Signal="LCD_VD20"/>
+        <Signals BallNumber="27" Signal="LCD_VD21"/>
+        <Signals BallNumber="13" Signal="LCD_VD22"/>
+        <Signals BallNumber="30" Signal="LCD_VD23"/>
+    </Peripheral>
+    <Peripheral Name="UART1">
+        <Signals BallNumber="234" Signal="U1_RXD"/>
+        <Signals BallNumber="233" Signal="U1_TXD"/>
+    </Peripheral>
+    <Peripheral Name="USART0">
+        <Signals BallNumber="159" Signal="U0_DIR"/>
+        <Signals BallNumber="206" Signal="U0_RXD"/>
+        <Signals BallNumber="239" Signal="U0_TXD"/>
+        <Signals BallNumber="190" Signal="U0_UCLK"/>
+    </Peripheral>
+    <Peripheral Name="USB0">
+        <Signals BallNumber="97" Signal="USB0_DM"/>
+        <Signals BallNumber="81" Signal="USB0_DP"/>
+        <Signals BallNumber="113" Signal="USB0_ID"/>
+        <Signals BallNumber="242" Signal="USB0_IND0"/>
+        <Signals BallNumber="212" Signal="USB0_IND1"/>
+        <Signals BallNumber="244" Signal="USB0_PPWR"/>
+        <Signals BallNumber="228" Signal="USB0_PWR_FAULT"/>
+        <Signals BallNumber="112" Signal="USB0_RREF"/>
+        <Signals BallNumber="80" Signal="USB0_VBUS"/>
+        <Signals BallNumber="82" Signal="USB0_VDDA3V3_DRIVER"/>
+        <Signals BallNumber="96" Signal="USB0_VSSA&#xa;_REF"/>
+        <Signals BallNumber="114" Signal="USB0_VSSA&#xa;_TERM"/>
+    </Peripheral>
+</PinMuxDesign>
